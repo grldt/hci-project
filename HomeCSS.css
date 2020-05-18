@@ -1,0 +1,198 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+.header {
+  background-image: url(mainBackground.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 392px;
+}
+
+.judul {
+  width: 100%;
+  height: 4.5rem;
+  background-color: white;
+}
+
+@font-face {
+  font-family: D-Din;
+  src: url("../fonts/d-din.otf") format("opentype");
+}
+
+@font-face {
+  font-family: Cormorant;
+  src: url("../fonts/cormorant.otf") format("opentype");
+}
+
+#sidebar {
+  position: absolute;
+  width: 200px;
+  height: 100%;
+  background-color: black;
+  padding-left: 0;
+  left: -200px;
+  transition: all 200ms linear;
+}
+
+#sidebar.active {
+  left: 0px;
+}
+
+#sidebar ul {
+  padding-left: 0rem;
+}
+
+#sidebar ul li {
+  color: rgba(230, 230, 230, 0.9);
+  list-style: none;
+  padding: 15px 10px;
+  border-bottom: 1px solid rgba(100, 100, 100, 0.3);
+}
+
+.toggleBtn {
+  position: absolute;
+  left: 230px;
+  top: 12.5px;
+}
+
+.toggleBtn span {
+  display: block;
+  width: 32px;
+  height: 4px;
+  background-color: #dfb835;
+  margin: 8px 0px;
+}
+
+nav {
+  list-style-type: none;
+  background-color: black;
+  height: 4.5rem;
+  color: white;
+}
+
+.btnPreRegis {
+  vertical-align: middle;
+}
+
+nav li {
+  float: right;
+  height: 4.5rem;
+  padding-top: 4px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  vertical-align: middle;
+  margin-top: 0rem;
+}
+
+.judul button {
+  width: 11rem;
+  height: 2rem;
+  background: #105d81;
+  border: none;
+  color: white;
+  padding: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  font-family: "Cormorant", sans-serif;
+  margin-top: 14px;
+  border-radius: 5px;
+}
+
+.logo {
+  background-image: url(Logo.png);
+  background-size: 32rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 20rem;
+}
+
+.layerone {
+  height: 20rem;
+  width: 50%;
+  float: left;
+}
+
+.layerone h2 {
+  font-family: "D-Din";
+  color: #dfb835;
+  font-weight: lighter;
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 10rem;
+}
+
+.layertwo {
+  height: 20rem;
+  width: 50%;
+  float: left;
+}
+
+.layertwo h2 {
+  font-family: "D-Din";
+  color: #dfb835;
+  font-weight: lighter;
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 10rem;
+}
+
+.forslide {
+  width: 100%;
+  height: 30rem;
+  background-color: #101010;
+}
+
+/* .slider {
+  height: 25rem;
+  width: 50%;
+  float: left;
+  margin-top: 2.5rem;
+} */
+
+.slider {
+  width: 50%;
+  height: 225px;
+  margin: 20px auto;
+  overflow: hidden;
+}
+
+.slideImages {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+  width: 400%;
+  height: 225px;
+}
+
+.image {
+  float: left;
+  list-style: none;
+  width: 400px;
+  height: 225px;
+}
+
+.paragraph {
+  height: 25rem;
+  width: 50%;
+  float: left;
+}
+
+.judulParagraph h1 {
+  color: #dfb835;
+  font-family: "D-Din";
+  font-size: 5rem;
+  margin-bottom: 0px;
+}
+
+.explaination p {
+  font-family: "Cormorant";
+  color: rgb(255, 255, 255);
+}
